@@ -2,10 +2,8 @@
 
 Serviço que armazenará um arquivo Json, com um array de objetos.
 
-Cada objeto conterá Nome, Email e Filtros.
+Cada objeto conterá Nome e Email.
 
-
-Chave filtros será um objeto com os filtros de Nível, Contrato e Localidade.
 
 Possui duas funções:
 - Salvar Email
