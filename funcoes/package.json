@@ -1,7 +1,8 @@
 {
   "name": "funcoes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serviço de persistência para o GitJobs",
+  "homepage": "https://github.com/CostaMarcos/GitJobs#readme",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon"
