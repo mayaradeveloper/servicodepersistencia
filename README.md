@@ -1,6 +1,6 @@
 # Serviço de Persistência
 
-Serviço que aramazenará um arquivo Json, com um array de objetos.
+Serviço que armazenará um arquivo Json, com um array de objetos.
 
 Cada objeto conterá Nome, Email e Filtros.
 

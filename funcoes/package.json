@@ -1,13 +1,18 @@
 {
   "name": "funcoes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serviço de persistência para o GitJobs",
+  "homepage": "https://github.com/CostaMarcos/GitJobs#readme",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+	"name": "Mayara Silva",
+	"email": "2019003145@ifam.edu.br",
+	"url": "https://github.com/mayaradeveloper"
+	},
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
