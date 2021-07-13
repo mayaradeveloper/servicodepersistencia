@@ -12,10 +12,10 @@ const lerArquivo = () => {
 
 const gravarArquivoJSON = (body) => {
     
-    const { nome, email } = body
+    const { email } = body
     
     const listaPessoas = lerArquivo()
-    listaPessoas.push({ nome, email })
+    listaPessoas.push({ email })
     
     const arquivoAtualizado = JSON.stringify(listaPessoas)
     fs.writeFileSync('./data/items.json', arquivoAtualizado, 'utf-8')
