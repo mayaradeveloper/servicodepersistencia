@@ -9,4 +9,4 @@ Possui duas funções:
 - Salvar Email
 - Pesquisar por atributo
 
-Será usado posteriormente por um módulo de Emai
+Será usado posteriormente por um módulo de Email.
