@@ -12,46 +12,13 @@ const lerArquivo = () => {
 
 const gravarArquivoJSON = (body) => {
     
-    const { nome, email, filtros } = body
+    const { nome, email } = body
     
     const listaPessoas = lerArquivo()
-    listaPessoas.push({ nome, email, filtros })
+    listaPessoas.push({ nome, email })
     
     const arquivoAtualizado = JSON.stringify(listaPessoas)
     fs.writeFileSync('./data/items.json', arquivoAtualizado, 'utf-8')
-}
-
-
-
-/*
-    O metodo de pesquisa recebe um parâmetro e busca na lista de objetos se há algum objeto com uma propriedade 
-    na chave filtros que contenha alguma parte da string recebida por parâmetro. Sendo assim não é necessário digitar a 
-    palavra inteira para realizar uma pesquisa. Por exemplo: ao digitar "Jun" a pesquisa retornará todos emails dos objetos
-    que contenham a string "Junior" na propriedade,  
-*/
-const pesquisa = (param) => {
-    const listaPessoas = lerArquivo();
-    const listaEmails = [];
-
-    const listaResultados = listaPessoas.filter(p => {
-            
-            let filtros = p.filtros
-        
-            if (
-                filtros.nivel.indexOf(param) !== -1     ||
-                filtros.contrato.indexOf(param) !== -1  ||
-                filtros.localidade.indexOf(param) !== -1
-                ) {
-                return true;   
-            }
-        }
-    )
-
-    for (resultado in listaResultados) {
-        listaEmails.push({email: listaResultados[resultado].email})
-    }
-
-    return listaEmails;
 }
 
 

@@ -1,1 +1,8 @@
-[{"nome":"teste","email":"teste@email.com","filtros":{"nivel":"Senior","contrato":"CLT","localidade":"BA"}},{"nome":"teste1","email":"teste@email.com","filtros":{"nivel":"Senior","contrato":"CLT","localidade":"BA"}},{"nome":"teste1","email":"teste@email.com","filtros":{"nivel":"Senior","contrato":"CLT","localidade":"BA"}},{"nome":"teste1","email":"teste@email.com","filtros":{"nivel":"Senior","contrato":"CLT","localidade":"BA"}},{"nome":"teste1","email":"teste@email.com","filtros":{"nivel":"Senior","contrato":"CLT","localidade":"SP"}}]
+[
+  { "nome": "teste", "email": "teste@email.com" },
+  { "nome": "teste1", "email": "teste@email.com" },
+  { "nome": "teste2", "email": "teste@email.com" },
+  { "nome": "teste3", "email": "teste@email.com" },
+  { "nome": "teste4", "email": "teste@email.com" },
+  { "nome": "teste5", "email": "teste5@email.com" }
+]
